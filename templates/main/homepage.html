@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+    <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+
+
+
+    <title>Document | Proactive</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <link rel="stylesheet" href="{% static 'css/homes.css'%}">
+    <link rel="stylesheet" href="{% static 'css/header3.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/footer5.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/share1.css'%}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+    <script >
+        
+
+        
+
+        function myFunction2(){
+            var missed = document.getElementById("missedPeriod");
+            var problem = document.getElementById("ques11");
+            var problem1 = document.getElementById("ques11_11");
+            var problem2 = document.getElementById("ques11_12");
+            var problem3 = document.getElementById("ques11_21");
+            var problem4 = document.getElementById("ques11_22");
+            var problem5 = document.getElementById("ques11_31");
+            var problem6 = document.getElementById("ques11_32");
+            var problem7 = document.getElementById("ques11_41");
+            var problem8 = document.getElementById("ques11_42");
+
+            if(missed.checked == true)
+            {
+                problem.style.display="block";
+                problem1.style.display="block";
+                problem2.style.display="block";
+                problem3.style.display="block";
+                problem4.style.display="block";
+                problem5.style.display="block";
+                problem6.style.display="block";
+                problem7.style.display="block";
+                problem8.style.display="block";
+            }
+
+            else
+            {
+                problem.style.display="none";
+                problem1.style.display="none";
+                problem2.style.display="none";
+                problem3.style.display="none";
+                problem4.style.display="none";
+                problem5.style.display="none";
+                problem6.style.display="none";
+                problem7.style.display="none";
+                problem8.style.display="none";
+            }
+
+        }
+
+       
+
+        function myFunction12(){
+            if(currentlyNotUnderAnyMedication.checked == true)
+            {
+                
+                document.getElementById("ques12_31").style.display="none";
+                 document.getElementById("ques12_32").style.display="none";
+                
+                 document.getElementById("ques12_41").style.display="none";
+                 document.getElementById("ques12_42").style.display="none";
+                
+                 
+                 document.getElementById("ques12_51").style.display="none";
+                 document.getElementById("ques12_52").style.display="none";
+                 
+
+                 document.getElementById("ques12_61").style.display="none";
+                 document.getElementById("ques12_62").style.display="none";
+                
+
+                 document.getElementById("ques12_71").style.display="none";
+                 document.getElementById("ques12_72").style.display="none";
+                
+
+                 document.getElementById("ques12_81").style.display="none";
+                 document.getElementById("ques12_82").style.display="none";
+                
+                 document.getElementById("ques12_91").style.display="none";
+                 document.getElementById("ques12_92").style.display="none";
+                
+
+                 document.getElementById("ques12_10_1").style.display="none";
+                 document.getElementById("ques12_10_2").style.display="none";
+                
+
+                 document.getElementById("ques12_11_1").style.display="none";
+                 document.getElementById("ques12_11_2").style.display="none";
+                 
+                 document.getElementById("ques12_12_1").style.display="none";
+                 document.getElementById("ques12_12_2").style.display="none";
+                
+                
+            }
+            else
+            {
+                
+                document.getElementById("ques12_31").style.display="block";
+                 document.getElementById("ques12_32").style.display="block";
+                 
+
+                 document.getElementById("ques12_41").style.display="block";
+                 document.getElementById("ques12_42").style.display="block";
+                 
+                 
+                 document.getElementById("ques12_51").style.display="block";
+                 document.getElementById("ques12_52").style.display="block";
+                 
+
+                 document.getElementById("ques12_61").style.display="block";
+                 document.getElementById("ques12_62").style.display="block";
+                
+
+                 document.getElementById("ques12_71").style.display="block";
+                 document.getElementById("ques12_72").style.display="block";
+                 
+                 document.getElementById("ques12_81").style.display="block";
+                 document.getElementById("ques12_82").style.display="block";
+                 
+
+                 document.getElementById("ques12_91").style.display="block";
+                 document.getElementById("ques12_92").style.display="block";
+                
+
+                 document.getElementById("ques12_10_1").style.display="block";
+                 document.getElementById("ques12_10_2").style.display="block";
+                 
+
+                 document.getElementById("ques12_11_1").style.display="block";
+                 document.getElementById("ques12_11_2").style.display="block";
+                
+                 document.getElementById("ques12_12_1").style.display="block";
+                 document.getElementById("ques12_12_2").style.display="block";
+                
+                 
+            }
+        }
+
+        
+    </script>
+    
+
+
+    
+    
+</head>
+<body >
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=421275845044457&autoLogAppEvents=1" nonce="RC3YhEcm"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav class="navbar navbar-expand-md navbar-light " >
+    <a href="http://www.proactiveforher.com/" class="navbar-brand" style="color: white;"><b>Proactive</b></a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" >
+        <span class="navbar-toggler-icon" style="background-color: white;"></span>
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarCollapse">
+        <div class="navbar-nav"  >
+           
+            <a href="http://www.proactiveforher.com/" class="nav-item nav-link active" style="padding-right: 40px;color: white;">Home</a>
+            <a href="http://www.proactiveforher.com/webinar/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Webinars</a>
+            <a href="http://www.proactiveforher.com/videos/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Videos</a>
+            <a href="http://www.proactiveforher.com/blog/" class="nav-item nav-link" style="padding-right: 40px;color: white;"> Blog</a>
+            <a href="http://www.proactiveforher.com/sti-2/patient-education-tools/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Tools</a>
+            <a href="http://www.proactiveforher.com/forum/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Forum</a>
+            <a href="http://www.proactiveforher.com/doctors/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Physicians</a>
+       
+        </div>
+    </div>
+</nav>
+
+      <br/>
+      <br/>
+      
+    <div class="container" id ="cont" style="border-color: #163948 ;border-style: solid;border-radius: 20px;border-width: 7px;">
+        <form method="POST"  enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="row"  id="q1-r1">
+                <p id="q1-p1"><strong>     Personal Information</strong></p>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <label for="name" id="q1-c1"><strong>Name</strong></label>
+                </div>
+                <div class="col-4">
+                    <input  type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="col-2">
+                    <label for="email" id="q1-c1"><strong>Email</strong></label>
+                </div>
+                <div class="col-4">
+                    <input  type="email" id="email" name="email" Placeholder="Your email" required>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <div class="row"  id="q2-r1">
+                <p  id="q2-p1"><strong>Please enter your vitals</strong></p>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <label for="dob" id="q1-c1"><strong>Date of Birth</strong></label>
+                </div>
+                <div class="col-4">
+                    <input  type="date" id="dob" name="dob" >
+                </div>
+                <div class="col-2">
+                    <label for="weight" id="q1-c1"><strong>Weight</strong></label>
+                </div>
+                <div class="col-4">
+                    <input  type="number" min="0" id="weight" name="weight" Placeholder="Your weight" >Kgs
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6"></div>
+
+                <div class="col-2">
+                    <label for="height_feet" id="q1-c1"><strong>Height</strong></label>
+                </div>
+                <div class="col-1">
+                    <input  type="number" min="0" id="height_feet" name="height_feet" >ft
+                </div>
+
+                <div class="col-2">
+                    <input  type="number" min="0" id="height_inches" name="height_inches" >inch
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            
+            <div class="row"  id="q3-r1">
+                <p  id="q3-p1"><strong>Please enter your measurements</strong></p>
+            </div>
+
+            <div class="row" id="q3-r2">
+                <p>(Please measure the fullest part of your hip and waist)</p>
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <label for="waist" id="q1-c1"><strong>Waist Size</strong></label>
+                </div>
+                <div class="col-4">
+                    <input type="number" min="0" id="waist" name="waist" > inch
+                </div>
+                <div class="col-2">
+                    <label for="hip"  id="q1-c1"><strong>Hip Size</strong></label>
+                </div>
+                <div class="col-4">
+                    <input  type="number" min="0" id="hip" name="hip" > inch
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            
+            <div class="row">
+                <div class="col-6">
+                    <label id="q5-l1"><strong>Are you someone who has had a baby within the last one year?</strong></label>
+                </div>
+                <div class="col-6">
+                    <select name="have_baby" id="have_baby">
+                        
+                        <option value="n">No</option>
+                        <option value="y">Yes</option>
+                    </select>
+                </div>
+                
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            
+
+
+            <div class="row"  id="ques6_1">
+                <p  id="q6-p1"><strong>Please select from this list all existing condition(s) that you have.</strong></p>
+            </div>
+
+            
+
+            <div class="row" id="q6-r1">
+                <div class="col-1"  id="ques6_31">
+                <input type="checkbox"  id="hyperprolactinemia" name="hyperprolactinemia" value="true"></input>
+                </div>
+                <div class=" col-3"  id="ques6_32">
+                    <label for="hyperprolactinemia">Hyperprolactinemia</label>
+                </div>
+                
+                <div class="col-2"  id="ques6_33">
+                    
+                </div>
+
+                <div class="col-2"  id="ques6_34">
+                   
+                </div>
+                <div class=" col-4"></div>
+
+            </div>
+            <br/>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques6_41">
+                <input type="checkbox" id="pcos_pcod" name="pcos_pcod" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques6_42">
+                    <label for="pcos_pcod">Pcos/Pcod</label>
+                </div>
+                
+                <div class="col-2"  style="margin:auto" id="ques6_43">
+                   
+                </div>
+                <div class="col-2"  style="margin:auto;width: 15px;" id="ques6_44">
+                   
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br/>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques6_51">
+                <input type="checkbox"  id="hypothyroidism" name="hypothyroidism" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques6_52">
+                    <label for="hypothyroidism">Hypothyroidism</label>
+                </div>
+                
+                <div class="col-2"  style="margin:auto" id="ques6_53">
+                   
+                </div>
+                <div class="col-2"  style="margin:auto;width: 15px;" id="ques6_54">
+                    
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br/>
+        
+
+            
+            <div id="ques6_7">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+            
+
+            
+
+           
+               
+            
+            
+
+
+            <div class="row">
+                <div class="col-5" id="ques9">
+                    <p style="color: #54595F;font-family: lora;font-size: larger;"><strong>Please enter how much weight you gained and in how much time</strong></p>
+                </div>
+                <div class="col-3" id="ques9_1">
+                    <input style="width:70px;margin-left: 95px;" min="0" type="number" id="weight9" name="weight9"> Kgs  <b style="padding-left: 20px;">IN</b>
+                </div>
+
+                
+                <div class="col-2" id="ques9_2">
+                    <input style="width:70px;margin-left: 95px;" min="0" type="number" id="time9" name="time9" >
+                </div>
+                <div class="col-2" id="ques9_3">
+                    <select  style="width: 115px;" name="time9_d" id="time9_d">
+                        
+                        <option value="m">months</option>
+                        <option value="d">days</option>
+                        <option value="y">years</option>
+                    </select>
+                </div>
+            </div>
+            <div id="ques9_4">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+
+            <div class="row" style="margin-left: 5px;" id="ques10">
+                <p  style="color: #54595F;font-family: lora;font-size: larger;"><strong>Please enter details of all symptoms that you noticed apart from weight gain</strong></p>
+            </div>
+
+           
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_21">
+                    <input type="checkbox"  id="hairLoss" name="hairLoss" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_22">
+                    <label for="hairLoss">Hair Loss</label>
+                </div>
+               
+                <div class="col-2"  style="margin:auto" id="ques10_24"> 
+                   
+                </div>
+                <div class="col-2"  style="margin:auto;width: 20px;" id="ques10_25">
+                   
+                </div>
+                 <div class="col-4"  style="margin:auto" id="ques10_23">
+                   <!-- <input style="width: 200px;"type="range"  min="1" max="10"    id="hairLossRange" name="hairLossRange"></input>-->
+                </div> 
+                
+
+            </div>
+            <div id="ques10_26">
+             <br/>
+            </div>
+
+
+            <div class="row" style="margin-bottom: -30px;">
+                <div class="col-1"  style="margin:auto" id="ques10_31">
+                    <input type="checkbox"  id="acneLoss" name="acneLoss" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_32">
+                    <label for="acneLoss">Acne</label>
+                </div>
+                
+                <div class="col-2"  style="margin:auto" id="ques10_34">
+                   
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_35">
+                   
+                </div>
+                <div class="col-4"  style="margin:auto" id="ques10_33">
+                  <!--  <input style="width: 200px;" type="range"  min="1" max="10"    id="acneLossRange" name="acneLossRange"></input> --> 
+                    
+                    
+                </div>
+
+            </div>
+            <div id="ques10_36">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_41">
+                    <input type="checkbox"  onclick="myFunction2()" id="missedPeriod" name="missedPeriod" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_42">
+                    <label for="missedPeriod">Missed/Irregular Period</label>
+                </div>
+                
+                <div class="col-2"  style="margin:auto" id="ques10_44">
+                   
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_45">
+                    
+                </div>
+
+                <div class="col-4" id="ques10_43">
+                    
+                </div>
+
+            </div>
+
+            <div id="ques10_46">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_51">
+                    <input type="checkbox"  id="extraHair" name="extraHair" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_52">
+                    <label for="extraHair">Extra hair growth on body and face</label>
+                </div>
+                
+                <div class="col-2"  style="margin:auto" id="ques10_54">
+                    
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_55">
+                   
+                </div>
+
+                <div class="col-4" id="ques10_53">
+                    <!--<input style="width: 200px;"type="range"  min="1" max="10"    id="extraHairRange" name="extraHairRange"></input> -->
+                </div>
+
+            </div>
+
+            <div id="ques10_56">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_61">
+                    <input type="checkbox"  id="constipation" name="constipation" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_62">
+                    <label for="constipation">Constipation</label>
+                </div>
+                <div class="col-4" id="ques10_63">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_64">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_65">
+                </div>
+
+            </div>
+            
+            <div id="ques10_66">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_71">
+                    <input type="checkbox"  id="skinPigmentation" name="skinPigmentation" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_72">
+                    <label for="skinPigmentation">Skin Pigmentation/thickness/dryness</label>
+                </div>
+                <div class="col-4" id="ques10_73">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_74">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_75">
+                </div>
+
+            </div>
+
+            <div id="ques10_76">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_81">
+                    <input type="checkbox"  id="slowHeartbeat" name="slowHeartbeat" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_82">
+                    <label for="slowHeartbeat">Slow Heartbeat</label>
+                </div>
+                <div class="col-4" id="ques10_83">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_84">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_85">
+                </div>
+
+            </div>
+
+            <div id="ques10_86">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_91">
+                    <input type="checkbox"  id="headache" name="headache" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_92">
+                    <label for="headache">Headache</label>
+                </div>
+                
+                <div class="col-2"  style="margin:auto" id="ques10_94">
+                   
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_95">
+                    
+                </div>
+                <div class="col-4" id="ques10_93">
+                   <!-- <input style="width: 200px;"type="range"  min="1" max="10"    id="headacheRange" name="headacheRange"></input> -->
+                </div>
+
+            </div>
+
+            <div id="ques10_96">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_10_1">
+                    <input type="checkbox"  id="dischargeNipple" name="dischargeNipple" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_10_2">
+                    <label for="dischargeNipple">Discharge from Nipple</label>
+                </div>
+                <div class="col-4" id="ques10_10_3"> 
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_10_4">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_10_5">
+                </div>
+
+            </div>
+
+            <div id="ques10_10_6">
+                <br/>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto" id="ques10_11_1">
+                    <input type="checkbox"  id="moodSwings" name="moodSwings" value="true"></input>
+                </div>
+                <div class="col-3"  style="margin:auto" id="ques10_11_2">
+                    <label for="moodSwings">Mood Swings/Lethargy/Sluggishness</label>
+                </div>
+                <div class="col-4" id="ques10_11_3">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_11_4">
+                </div>
+                <div class="col-2"  style="margin:auto" id="ques10_11_5">
+                </div>
+
+            </div>
+
+            <div id="ques10_11_6">
+                <br/>
+            </div>
+
+           
+
+
+
+
+
+            
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row" style="margin-left: 5px;display: none;" id="ques11">
+                <p  style="color: #54595F;font-family: lora;font-size: larger;"><strong>In relation to your menstrual problems, please select all statements that apply to you</strong></p>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto;display: none;" id="ques11_11">
+                <input type="checkbox"  id="stoppedPeriods" name="stoppedPeriods" value="true"></input>
+                </div>
+                <div class="col-11"  style="margin:auto;display: none;" id="ques11_12">
+                    <label for="stoppedPeriods">Stopped getting menstrual periods</label>
+                </div>
+                
+                
+
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto;display: none;" id="ques11_21">
+                <input type="checkbox"  id="lessThanSixCycles" name="lessThanSixCycles" value="true"></input>
+                </div>
+                <div class="col-11"  style="margin:auto;display: none;" id="ques11_22">
+                    <label for="lessThanSixCycles">less than 6 cycles a year</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto;display: none;" id="ques11_31">
+                <input type="checkbox"  id="moreThanSixCycles" name="moreThanSixCycles" value="true"></input>
+                </div>
+                <div class="col-11"  style="margin:auto;display: none;" id="ques11_32">
+                    <label for="moreThanSixCycles">more than 6 cycles a year</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1"  style="margin:auto;display: none;" id="ques11_41">
+                <input type="checkbox"  id="countinuosFlow" name="countinuosFlow" value="true"></input>
+                </div>
+                <div class="col-11"  style="margin:auto;display: none;" id="ques11_42">
+                    <label for="countinuosFlow">Continuous flow for more than 7 days</label>
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+
+
+
+
+
+           
+
+            
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row" style="margin-left: 5px;" id="ques12">
+                <p style="color: #54595F;font-family: lora;font-size: larger;"><strong>Are you taking medications for any of the following conditions?</strong></p>
+            </div>
+
+           
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_21">
+                    <input type="checkbox"  onclick="myFunction12()" id="currentlyNotUnderAnyMedication" name="currentlyNotUnderAnyMedication" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_22">
+                    <label for="currentlyNotUnderAnyMedication">Currently not under medication</label>
+                </div>
+                <div class="col-2" id="ques12_23">
+                   
+                </div>
+                <div class="col-2" id="ques12_24">
+                   
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_31">
+                    <input type="checkbox"  id="diabestes" name="diabestes" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_32">
+                    <label for="diabestes">Diabetes (insulin (Humulin N, Lantus), glipizide, pioglitazone)</label>
+                </div>
+                <div class="col-2" id="ques12_33">
+                   
+                </div>
+                <div class="col-2" id="ques12_34">
+                   
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_41">
+                    <input type="checkbox"  id="migrane" name="migrane" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_42">
+                    <label for="migrane">Migraine</label>
+                </div>
+                <div class="col-2" id="ques12_43">
+                    
+                </div>
+                <div class="col-2" id="ques12_44">
+                    
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_51">
+                    <input type="checkbox"  id="medicationHighBloodPressure" name="medicationHighBloodPressure" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_52">
+                    <label for="medicationHighBloodPressure">High Blood pressure(metoprolol (Lopressor), atenolol (Tenormin), propranolol (Inderal))</label>
+                </div>
+                <div class="col-2" id="ques12_53">
+                    
+                </div>
+                <div class="col-2" id="ques12_54">
+                    
+                </div>
+
+            </div>
+
+            <div class="row"  >
+                <div class="col-1"  style="margin:auto" id="ques12_61">
+                    <input type="checkbox"  id="medicationMentalHealthDisorder" name="medicationMentalHealthDisorder" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_62">
+                    <label for="medicationMentalHealthDisorder">Mental health disorder  (paroxetine (Paxil), sertraline (Zoloft), amitriptyline, trazodone, alprazolam (Xanax), diazepam (Valium)</label>
+                </div>
+                <div class="col-2" id="ques12_63">
+                   
+                </div>
+                <div class="col-2" id="ques12_64">
+                    
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_71">
+                    <input type="checkbox"  id="steroidTherapy" name="steroidTherapy" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_72">
+                    <label for="steroidTherapy">Steroid therapy (prednisone, norethindrone, Nexplanon, tamoxifen)</label>
+                </div>
+                <div class="col-2" id="ques12_73">
+                    
+                </div>
+                <div class="col-2" id="ques12_74">
+                   
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_81">
+                    <input type="checkbox"  id="hormonalContraception" name="hormonalContraception" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_82">
+                    <label for="hormonalContraception">Hormonal Contraception</label>
+                </div>
+                <div class="col-2" id="ques12_83">
+                    
+                </div>
+                <div class="col-2" id="ques12_84"> 
+                    
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_91">
+                    <input type="checkbox"  id="seizure" name="seizure" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_92">
+                    <label for="seizure">Seizure/fit (gabapentin (Neurontin), pregabalin (Lyrica), divalproex (Depakote))</label>
+                </div>
+                <div class="col-2" id="ques12_93">
+                   
+                </div>
+                <div class="col-2" id="ques12_94">
+                    
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_10_1">
+                    <input type="checkbox"  id="proteinSupplements" name="proteinSupplements" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_10_2">
+                    <label for="proteinSupplements">ProteinSupplements</label>
+                </div>
+                <div class="col-2" id="ques12_10_3">
+                    
+                </div>
+                <div class="col-2" id="ques12_10_4">
+                   
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_11_1">
+                    <input type="checkbox"  id="Opioids" name="Opioids" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_11_2">
+                    <label for="Opioids">Opioids (oxycodone, hydrocodone)</label>
+                </div>
+                <div class="col-2" id="ques12_11_3">
+                  
+                </div>
+                <div class="col-2" id="ques12_11_4">
+                   
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1"  style="margin:auto" id="ques12_12_1">
+                    <input type="checkbox"  id="antiHistamines" name="antiHistamines" value="true"></input>
+                </div>
+                <div class="col-7"  style="margin:auto" id="ques12_12_2">
+                    <label for="antiHistamines">Anti-Histamines (ranitidine, diphenhydramine (Benadryl), cetirizine (Zyrtec))</label>
+                </div>
+                <div class="col-2" id="ques12_12_3">
+                    
+                </div>
+                <div class="col-2" id="ques12_12_4">
+                   
+                </div>
+
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            
+
+            <div class="row" style="margin-left: 4px;" id="ques14">
+                <p style="color: #54595F;font-family: lora;font-size: larger;"><strong>Select all options that you have undergone/experienced within the past year?</strong></p>
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1" style="margin:auto" id="ques14_11">
+                    <input type="checkbox"  id="undergoneSurgery" name="undergoneSurgery" value="true"></input>
+                </div>
+                <div class="col-11"  style="margin:auto" id="ques14_12">
+                    <label for="undergoneSurgery">Undergone surgery within the past year</label>
+                </div>
+
+            </div>
+
+            <div class="row" style="margin-bottom: -30px;" >
+                <div class="col-1" style="margin:auto" id="ques14_21">
+                    <input type="checkbox"  id="physicallyImmobile" name="physicallyImmobile" value="true"></input>
+                </div>
+                <div class="col-11"  style="margin:auto" id="ques14_22">
+                    <label for="physicallyImmobile">Been Physically Immobile in the past year</label>
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-1" style="margin:auto" id="ques14_31">
+                    <input type="checkbox"  id="viralFever" name="viralFever" value="true"></input>
+                </div>
+                <div class="col-11"  style="margin:auto" id="ques14_32">
+                    <label for="viralFever">Suffered from Viral Fever sometime in the past year</label>
+                </div>
+
+            </div>
+            <div id="ques14_4">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+
+            <div class="row">
+                <div class="col-6" style="margin:auto" id="ques15">
+                    <label style="color: #54595F;font-family: lora;font-size: larger;" for="workoutValue"><b>Do you work out for more than 2.5 hours or 150 minutes per week?</b></label>
+                </div>
+                <div class="col-6" style="margin:auto" id="ques15_1">
+                    <select name="workoutValue" id="workoutValue">
+                        <option value="y">Yes</option>
+                        <option value="n">No</option>
+                    </select>
+                </div>
+
+            </div>
+            <div id="ques15_2">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+
+            <div class="row" >
+                <div class="col-6" style="margin:auto" id="ques16">
+                    <label style="color: #54595F;font-family: lora;font-size: larger;" for="eatFoodValue"><b>Do eat any of the following more than twice a week?</b></label>
+                </div>
+                <div class="col-6" style="margin:auto" id="ques16_1">
+                    <select name="eatFoodValue" id="eatFoodValue">
+                        <option value="y">Yes</option>
+                        <option value="n">No</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <ul style="list-style-type:none;margin-left:150px;" id="ques16_2">
+                <li>Sugary food</li>
+                <li>Soft-Drinks</li>
+                <li>Bakery Items</li>
+                <li>Processed Food</li>
+                <li>Fried Food</li>
+                <li>Desserts</li>
+            </ul>
+            <div id="ques16_3">
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+
+            <div class="row" >
+                <div class="col-6" id="ques17">
+                    <label style="color: #54595F;font-family: lora;font-size: larger;"><b>How many hours of sleep do you get in a day?</b></label>
+                </div>
+                <div class="col-6" id="ques17_1">
+                    <input style="width:300px" type="text"  id="sleepValue" name="sleepValue">  hrs</input>
+                </div>
+                
+
+            </div>
+            <div id="ques17_2">
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+
+            <div class="row" style="margin-left: 1px;margin-bottom: -15px;" id="ques18">
+                <p style="color: #54595F;font-family: lora;font-size: larger;"><b>Please enter any health conditions in your family members.</b></p>
+                <p style="color: #54595F;font-family: lora;font-size: larger;"><b>(Straight blood relatives only)</b></p>
+            </div>
+            <div class="row" style="margin-left: 1px;" id="ques18_1">
+                <p>*This information is important for diagnosis to highlight any risks and possible complications</p>
+                
+            </div>
+
+            <div class="row" style="margin-bottom:-30px;" >
+                <div class="col-1" style="margin: auto;" id="ques18_21">
+                    <input type="checkbox"  id="highBloodPressure" name="highBloodPressure" value="true"></input>
+                </div>
+                <div class="col-11" style="margin: auto;" id="ques18_22">
+                    <label for="highBloodPressure">High Blood Pressure</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom:-30px;" >
+                <div class="col-1" style="margin: auto;" id="ques18_31">
+                    <input type="checkbox"  id="highCholesterol" name="highCholesterol" value="true"></input>
+                </div>
+                <div class="col-11" style="margin: auto;" id="ques18_32">
+                    <label for="highCholesterol">High Cholesterol</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom:-30px;" >
+                <div class="col-1" style="margin: auto;" id="ques18_41">
+                    <input type="checkbox"  id="familyHypothyroidism" name="familyHypothyroidism" value="true"></input>
+                </div>
+                <div class="col-11" style="margin: auto;" id="ques18_42">
+                    <label for="familyHypothyroidism">Hypothyroidism</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom:-30px;" >
+                <div class="col-1" style="margin: auto;" id="ques18_51">
+                    <input type="checkbox"  id="diabetes" name="diabetes" value="true"></input>
+                </div>
+                <div class="col-11" style="margin: auto;" id="ques18_52">
+                    <label for="diabetes">Diabetes</label>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom:-30px;" >
+                <div class="col-1" style="margin: auto;" id="ques18_61">
+                    <input type="checkbox"  id="pcos" name="pcos" value="true"></input>
+                </div>
+                <div class="col-11" style="margin: auto;" id="ques18_62">
+                    <label for="pcos">PCOS</label>
+                </div>
+            </div>
+            
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            
+
+
+
+            
+
+
+
+
+
+
+
+
+            
+
+           
+
+            <div class="row">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+<br/>
+           
+            
+
+
+           
+        </form>
+
+    
+        
+
+    </div>
+    <div>
+        <h1  id="comment">Share Now</h1>
+        
+    </div>
+    <div id="comment1">Let your friends know about this weight gain assessment tool and help them understand the possible reasons behind their weight gain.</div>
+
+    <br/>
+
+    <div class="row" id="share">
+
+    <!-- Sharingbutton Facebook -->
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+      </div>
+    </div>
+  </a>
+  
+  <!-- Sharingbutton Twitter -->
+  <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+      </div>
+    </div>
+  </a>
+  
+  <!-- Sharingbutton E-Mail -->
+  <a class="resp-sharing-button__link" href="mailto:?subject=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;body=http%3A%2F%2Fsharingbuttons.io" target="_self" rel="noopener" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z"/></svg>
+      </div>
+    </div>
+  </a>
+  
+  <!-- Sharingbutton LinkedIn -->
+  <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fsharingbuttons.io&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;summary=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;source=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+      </div>
+    </div>
+  </a>
+  
+  <!-- Sharingbutton WhatsApp -->
+  <a class="resp-sharing-button__link" href="whatsapp://send?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.%20http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z"/></svg>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+<br/>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <h1  id="comment">Comment</h1>
+        
+    </div>
+    <div id="comment1">Share anything you would like to say.</div>
+    <br/>
+    <div  id="comment2">
+    <div   class="fb-comments" data-href="http://52.15.219.209:8000/homepage/" data-numposts="100" data-width=""></div>
+    </div>
+    <footer >
+        <div  style=" background: #163948; padding:30px">
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-6" >
+                
+                    <a href="http://www.proactiveforher.com/" style=" font-size:large;margin-left: 20px;color: white;"> Home</a>
+                    <br/>
+                    <a href="https://www.facebook.com/proactiveforher/?__tn__=%2Cd%2CP-R&eid=ARBOEZQG5jk8MqVy1_dkE5SWe1aZh6iVRJ4CNfc2AlW_d4oKslHdFP1TOpa1LqHGK7eKHdarQEhFmfjz" class="fa fa-facebook"></a> &nbsp;
+                    <a href="https://www.instagram.com/proactiveforher/?hl=en" class="fa fa-instagram"></a> &nbsp;
+                    <a href="https://www.linkedin.com/company/43208504/admin/" class="fa fa-linkedin"></a> &nbsp;
+
+                    <br/>
+                    <p style="font-size: large;color: white;margin-left: 20px;">© Proactive For Her 2020</p>
+
+                </div>
+                <div class="col-6">
+                    <form method="POST" action="https://proactiveforher.us18.list-manage.com/subscribe/post?u=14fbc27b9ee1cfe7f204242de&amp;id=792a773110">
+                    {% csrf_token %}
+                        <input style="height: 30px;" type="f_email" name="f_email" Placeholder="Your email address">
+                        <br/>
+                        
+                    <button type="submit" id="f_submit">Signup for Newsletter</button>
+                    </form>
+                </div>
+                </div>
+                
+               
+
+        </div>
+    </footer>
+
+</body>
+</html>
