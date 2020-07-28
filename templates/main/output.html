@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/o_output.css'%}">
-    <link rel="stylesheet" href="{% static 'css/o_header.css'%}"/>
-    <link rel="stylesheet" href="{% static 'css/o_footer4.css'%}"/>
-    <link rel="stylesheet" href="{% static 'css/share1.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/o_output2.css'%}">
+    <link rel="stylesheet" href="{% static 'css/o_header1.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/o_footer5.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/share2.css'%}"/>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,28 +19,32 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
 </head>
 <body style="font-family: open sans;font-size: larger;color:#163948;">
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=421275845044457&autoLogAppEvents=1" nonce="RC3YhEcm"></script>
+    
    
     <nav class="navbar navbar-expand-md navbar-light " >
-        <a href="http://www.proactiveforher.com/" class="navbar-brand" style="color: white;"><b>Proactive</b></a>
+        <a href="http://www.proactiveforher.com/" class="navbar-brand" style="color: white;font-family: Abril Fatface;" id="logo">Proactive</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" >
             <span class="navbar-toggler-icon" style="background-color: white;"></span>
         </button>
-
+    
         <div class="collapse navbar-collapse " id="navbarCollapse">
             <div class="navbar-nav"  >
                
-                <a href="http://www.proactiveforher.com/" class="nav-item nav-link active" style="padding-right: 40px;color: white;">Home</a>
-                <a href="http://www.proactiveforher.com/webinar/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Webinars</a>
-                <a href="http://www.proactiveforher.com/videos/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Videos</a>
-                <a href="http://www.proactiveforher.com/blog/" class="nav-item nav-link" style="padding-right: 40px;color: white;"> Blog</a>
-                <a href="http://www.proactiveforher.com/sti-2/patient-education-tools/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Tools</a>
-                <a href="http://www.proactiveforher.com/forum/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Forum</a>
-                <a href="http://www.proactiveforher.com/doctors/" class="nav-item nav-link" style="padding-right: 40px;color: white;">Physicians</a>
+                <a href="http://www.proactiveforher.com/" class="nav-item nav-link active" style="padding-right:25px;color: white;">Home</a>
+                <a href="http://www.proactiveforher.com/webinar/" class="nav-item nav-link" style="padding-right:25px;color: white;">Webinars</a>
+                <a href="http://www.proactiveforher.com/videos/" class="nav-item nav-link" style="padding-right:25px;color: white;">Videos</a>
+                <a href="http://www.proactiveforher.com/blog/" class="nav-item nav-link" style="padding-right:25px;color: white;"> Blog</a>
+                <a href="http://www.proactiveforher.com/sti-2/patient-education-tools/" class="nav-item nav-link" style="padding-right:25px;color: white;">Tools</a>
+                <a href="http://www.proactiveforher.com/forum/" class="nav-item nav-link" style="padding-right:25px;color: white;">Forum</a>
+                <a href="http://www.proactiveforher.com/doctors/" class="nav-item nav-link" style="padding-right:25px;color: white;">Physicians</a>
            
             </div>
         </div>
@@ -52,8 +56,8 @@
         
     <div  class="container" >
         <div class="row" id="heading">
-            <h1 ><b>Weight gain: Preliminary Assessment</b></h1>
-            <h2 id="appoint">Appointment Id:{{appoint.id}}</h2>
+            <h1 style="font-family: Montserrat;"><b>Weight gain: Preliminary Assessment</b></h1>
+            
         </div>
         <br/>
         <br/>
@@ -257,6 +261,8 @@
                               </div>
                             <br/>
 
+                           
+
                             {% if bmi < 16 %}
                             <b>Very severly underweight</b>
                             {% endif %}
@@ -292,13 +298,13 @@
                             <p>Height: {{appoint.height_feet}} ft   {{appoint.height_inches}} inch </p>
 
                             <p id="t6-p1">
-                                Very severly underweight &nbsp; < 16 <br/>
-                                Severly underweight&nbsp;16.0 - 16.9<br/>
-                                Underweight  &nbsp;             17.0 - 18.4<br/>
-                                Normal      &nbsp;              18.8 - 24.9<br/>
-                                Overweight   &nbsp;             25.0 - 29.9<br/>
-                                Obese Class I   &nbsp;          30.0 - 34.9<br/>
-                                Obese Class II  &nbsp;          35.0 - 39.9<br/>
+                            <b>Very severly underweight</b> &nbsp; < 16 <br/>
+                            <b>Severly underweight</b>&nbsp;16.0 - 16.9<br/>
+                            <b>Underweight</b>  &nbsp;             17.0 - 18.4<br/>
+                            <b>Normal</b>      &nbsp;              18.8 - 24.9<br/>
+                            <b>Overweight</b>   &nbsp;             25.0 - 29.9<br/>
+                            <b>Obese Class I </b>  &nbsp;          30.0 - 34.9<br/>
+                            <b>Obese Class II </b> &nbsp;          35.0 - 39.9<br/>
                                 <br/>
 
                                 
@@ -556,7 +562,7 @@
                 <tr >
                  <td  id="t8-col2">
                      {% if appoint.hyperprolactinemia == "true" %}
-                     hyperprolactinemia
+                     Hyperprolactinemia
                      <br/>
                      {% endif %}
                      {% if appoint.pcos_pcod == "true" %}
@@ -567,10 +573,7 @@
                      Hypothyroidism
                      <br/>
                      {% endif %}
-                     {% if appoint.other == "true" %}
-                     other
-                     <br/>
-                     {% endif %}
+                     
                 
                 
                 </td>
@@ -587,111 +590,115 @@
                 </tr>
                 <tr>
                     <td id="t10-col2">
+                    <ul>
+                    
                        {% if appoint.hairLoss == "true" %}
-                          Hair Loss 
+                         <li> Hair Loss 
                        {% endif %}
                        {% if appoint.hairLossTime  %}
                        for {{appoint.hairLossTime}} {{appoint.get_hairLossTimeType_display}}
                        {% endif %}
-                       <br/>
+                    </li>
 
+                   
                        {% if appoint.acneLoss == "true" %}
-                         Acne 
+                       <li>Acne 
                        {% endif %}
                        {% if appoint.acneLossTime  %}
                        for {{appoint.acneLossTime}} {{appoint.get_acneLossTimeType_display}}
                        {% endif %}
-
-                       <br/>
-
+                    </li>
+                    
+                   
                        {% if appoint.missedPeriod == "true" %}
-                         Missed/Irregular Period
+                       <li> Missed/Irregular Period
                        {% endif %}
                        {% if appoint.missedPeriodTime  %}
                        for {{appoint.missedPeriodTime}} {{appoint.get_missedPeriodTimeType_display}}
                        {% endif %}
-
-                       <br/>
-
+                    </li>
+                    
+                    
                        {% if appoint.extraHair == "true" %}
-                         Extra hair growth on body and face
+                       <li> Extra hair growth on body and face
                        {% endif %}
                        {% if appoint.extraHairTime  %}
                        for {{appoint.extraHairTime}} {{appoint.get_extraHairTimeType_display}}
                        {% endif %}
-
-                       <br/>
-
+                    </li>
+                    
+                    
                        {% if appoint.constipation == "true" %}
-                         Constipation
+                       <li> Constipation</li>
                        {% endif %}
 
-                       <br/>
+                    
 
+                   
                        {% if appoint.skinPigmentation == "true" %}
-                       Skin Pigmentation/thickness/dryness
+                       <li>Skin Pigmentation/thickness/dryness</li>
                        {% endif %}
+                    
 
-                       <br/>
-
+                   
                        {% if appoint.slowHeartbeat == "true" %}
-                       Slow Heartbeat
+                       <li> Slow Heartbeat </li>
                        {% endif %}
+                   
 
-                       <br/>
-
+                    
                        {% if appoint.headache == "true" %}
-                         Headache
+                       <li> Headache
                        {% endif %}
                        {% if appoint.headacheTime  %}
                        for {{appoint.headacheTime}} {{appoint.get_headacheTimeType_display}}
                        {% endif %}
+                    </li>
 
-                       <br/>
-
+                    
                        {% if appoint.dischargeNipple == "true" %}
-                         Discharge from Nipple
+                       <li> Discharge from Nipple</li>
                        {% endif %}
+                    
 
-                       <br/>
-
+                    
                        {% if appoint.moodSwings == "true" %}
-                       Mood Swings/Lethargy/Sluggishness
+                       <li> Mood Swings/Lethargy/Sluggishness</li>
                        {% endif %}
+                    
 
-                       <br/>
-
+                    
                        {% if appoint.others == "true" %}
-                         Others
+                       <li>Others
                        {% endif %}
                        {% if appoint.othersTime  %}
                        for {{appoint.othersTime}} {{appoint.get_othersTimeType_display}}
                        {% endif %}
+                    </li>
+                    </ul>
                     </td>
 
                     <td id="t10-col2">
                         
-
+                    <ul>
                         {% if appoint.stoppedPeriods == "true" %}
-                            Stopped getting menstrual periods
+                           <li> Stopped getting menstrual periods</li>
                         {% endif %}
 
-                        <br/>
 
                         {% if appoint.lessThanSixCycles == "true" %}
-                             less than 6 cycles a year
+                            <li> less than 6 cycles a year</li>
                         {% endif %}
 
-                        <br/>
+                        
 
                         {% if appoint.moreThanSixCycles == "true" %}
-                            more than 6 cycles a year
+                           <li> more than 6 cycles a year </li>
                         {% endif %}
 
-                        <br/>
 
                         {% if appoint.countinuosFlow == "true" %}
-                           Continuous flow for more than 7 days
+                           <li>Continuous flow for more than 7 days</li>
                         {% endif %}
                     </td>
                 </tr>
@@ -708,32 +715,29 @@
                     <td id="t11-col2" >
 
                        {% if appoint.highBloodPressure == "true" %}
-                         High Blood Pressure
+                         <li>High Blood Pressure </li>
                        {% endif %}
 
-                       <br/>
+                      
 
                        {% if appoint.highCholesterol == "true" %}
-                       High Cholesterol
+                       <li>High Cholesterol</li>
                        {% endif %}
 
-                       <br/>
 
                        {% if appoint.familyHypothyroidism == "true" %}
-                       Hypothyroidism
+                       <li>Hypothyroidism</li>
                        {% endif %}
 
-                       <br/>
 
 
                        {% if appoint.diabetes == "true" %}
-                       Diabetes
+                       <li>Diabetes</li>
                        {% endif %}
 
-                       <br/>
 
                        {% if appoint.pcos == "true" %}
-                        PCOS
+                        <li>PCOS</li>
                        {% endif %}
                        
 
@@ -819,22 +823,20 @@
                     <td  id="t12-col2">
                       
                        {% if appoint.undergoneSurgery == "true" %}
-                       Undergone surgery within the past year
+                       <li>Undergone surgery within the past year</li>
                        {% endif %}
 
-                       <br/>
 
                        {% if appoint.physicallyImmobile == "true" %}
-                       Been Physically Immobile in the past year
+                       <li>Been Physically Immobile in the past year</li>
                        {% endif %}
 
-                       <br/>
+                       
 
                        {% if appoint.viralFever == "true" %}
-                       Suffered from Viral Fever sometime in the past year
+                       <li>Suffered from Viral Fever sometime in the past year</li>
                        {% endif %}
 
-                       <br/>
                     </td>
                 </tr>
 
@@ -855,88 +857,15 @@
 
 
 
-<script>
-        const gaugeElement = document.querySelector(".gauge");
-
-        function setGaugeValue(gauge, value) {
-        if (value < 0 ) {
-        return;
-        }
-
-        gauge.querySelector(".gauge__fill").style.transform = `rotate(${
-        value / 2
-        }turn)`;
-        gauge.querySelector(".gauge__cover").textContent = `${
-        value}`;
-        }
-
-
-        setGaugeValue(gaugeElement, {{waist_hip}} );
-
-
-        const gaugeElement1 = document.querySelector(".gauge1");
-
-        function setGaugeValue1(gauge1, value1) {
-        if (value1 < 0 || value1 > 40 ) {
-        return;
-        }
-
-        gauge1.querySelector(".gauge__fill1").style.transform = `rotate(${
-        value1 / 80
-        }turn)`;
-        gauge1.querySelector(".gauge__cover1").textContent = `${
-        value1}`;
-        }
-
-
-        setGaugeValue1(gaugeElement1, {{bmi}} );
-
-
-        /*function print() {
-		const filename  = 'Report.pdf';
-
-		html2canvas(document.body, {
-  onrendered:function(canvas) {
-      var contentWidth = canvas.width;
-      var contentHeight = canvas.height;
-      //One page pdf shows the canvas height generated by html pages.
-      var pageHeight = contentWidth / 592.28 * 841.89;
-      //html page height without pdf generation
-      var leftHeight = contentHeight;
-      //Page offset
-      var position = 0;
-      //a4 paper size [595.28, 841.89], html page generated canvas in pdf picture width
-      var imgWidth = 595.28;
-      var imgHeight = 592.28/contentWidth * contentHeight;
-      var pageData = canvas.toDataURL('image/jpeg', 1.0);
-      var pdf = new jsPDF('', 'pt', 'a4');
-      //There are two heights to distinguish, one is the actual height of the html page, and the page height of the generated pdf (841.89)
-      //When the content does not exceed the range of pdf page display, there is no need to paginate
-      if (leftHeight < pageHeight) {
-      pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth, imgHeight );
-      } else {
-          while(leftHeight > 0) {
-              pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight)
-              leftHeight -= pageHeight;
-              position -= 841.89;
-              //Avoid adding blank pages
-              if(leftHeight > 0) {
-                pdf.addPage();
-              }
-          }
-      }
-      pdf.save('content.pdf');
-  }
-})
-	}*/
-</script>
 
 </div>
+<br/>
+<br/>
 <div>
     <h1  id="comment">Share Now</h1>
     
 </div>
-<div id="comment1">Let your friends know about this weight gain assessment tool and help them understand the possible reasons behind their weight gain. </div>
+<div id="comment1">Let your friends know about this weight gain assessment tool and help them understand the possible reasons behind their weight gain.</div>
 
 <br/>
 
@@ -988,36 +917,53 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<br/>
+<br/>
 <div>
     <h1  id="comment">Comment</h1>
     
 </div>
 <div id="comment1">Share anything you would like to say.</div>
 <br/>
-<div  id="f_1">
+<div  id="comment2">
 <div   class="fb-comments" data-href="http://52.15.219.209:8000/homepage/" data-numposts="100" data-width=""></div>
 </div>
-<footer>
+</div>
+
+<br/>
+<br/>
+<footer >
     <div  style=" background: #163948; padding:30px">
         <br/>
-        <br/>
+       
         <div class="row">
             <div class="col-6" >
             
-                <a href="http://www.proactiveforher.com/" id="f_2"> Home</a>
+                <a href="http://www.proactiveforher.com/" style="color: white;" id="f_home"> Home</a>
                 <br/>
+                <div id="social">
                 <a href="https://www.facebook.com/proactiveforher/?__tn__=%2Cd%2CP-R&eid=ARBOEZQG5jk8MqVy1_dkE5SWe1aZh6iVRJ4CNfc2AlW_d4oKslHdFP1TOpa1LqHGK7eKHdarQEhFmfjz" class="fa fa-facebook"></a> &nbsp;
                 <a href="https://www.instagram.com/proactiveforher/?hl=en" class="fa fa-instagram"></a> &nbsp;
                 <a href="https://www.linkedin.com/company/43208504/admin/" class="fa fa-linkedin"></a> &nbsp;
+            </div>
 
-                <br/>
-                <p id="f_3">© Proactive For Her 2020</p>
+               
+                <p style="color: white;" id="f_logo">© Proactive For Her 2020</p>
 
             </div>
             <div class="col-6">
                 <form method="POST" action="https://proactiveforher.us18.list-manage.com/subscribe/post?u=14fbc27b9ee1cfe7f204242de&amp;id=792a773110">
                 {% csrf_token %}
-                    <input id="f_email"  type="f_email" name="f_email" Placeholder="Your email address">
+                    <input style="height: 30px;" type="f_email" name="f_email" id="f_email" Placeholder="Your email address">
                     <br/>
                     
                 <button type="submit" id="f_submit">Signup for Newsletter</button>
@@ -1026,9 +972,88 @@
             </div>
             
            
+           
 
     </div>
+    
 </footer>
+
+<script>
+    const gaugeElement = document.querySelector(".gauge");
+
+    function setGaugeValue(gauge, value) {
+    if (value < 0 ) {
+    return;
+    }
+
+    gauge.querySelector(".gauge__fill").style.transform = `rotate(${
+    value / 2
+    }turn)`;
+    gauge.querySelector(".gauge__cover").textContent = `${
+    value}`;
+    }
+
+
+    setGaugeValue(gaugeElement, {{waist_hip}} );
+
+</script>
+<script>
+    const gaugeElement1 = document.querySelector(".gauge1");
+
+    function setGaugeValue1(gauge1, value1) {
+    if (value1 < 0 || value1 > 40 ) {
+    return;
+    }
+
+    gauge1.querySelector(".gauge__fill1").style.transform = `rotate(${
+    value1 / 80
+    }turn)`;
+    gauge1.querySelector(".gauge__cover1").textContent = `${
+    value1}`;
+    }
+
+
+    setGaugeValue1(gaugeElement1, {{bmi}} );
+
+
+    /*function print() {
+    const filename  = 'Report.pdf';
+
+    html2canvas(document.body, {
+onrendered:function(canvas) {
+  var contentWidth = canvas.width;
+  var contentHeight = canvas.height;
+  //One page pdf shows the canvas height generated by html pages.
+  var pageHeight = contentWidth / 592.28 * 841.89;
+  //html page height without pdf generation
+  var leftHeight = contentHeight;
+  //Page offset
+  var position = 0;
+  //a4 paper size [595.28, 841.89], html page generated canvas in pdf picture width
+  var imgWidth = 595.28;
+  var imgHeight = 592.28/contentWidth * contentHeight;
+  var pageData = canvas.toDataURL('image/jpeg', 1.0);
+  var pdf = new jsPDF('', 'pt', 'a4');
+  //There are two heights to distinguish, one is the actual height of the html page, and the page height of the generated pdf (841.89)
+  //When the content does not exceed the range of pdf page display, there is no need to paginate
+  if (leftHeight < pageHeight) {
+  pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth, imgHeight );
+  } else {
+      while(leftHeight > 0) {
+          pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight)
+          leftHeight -= pageHeight;
+          position -= 841.89;
+          //Avoid adding blank pages
+          if(leftHeight > 0) {
+            pdf.addPage();
+          }
+      }
+  }
+  pdf.save('content.pdf');
+}
+})
+}*/
+</script>
 
 
         

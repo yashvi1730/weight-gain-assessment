@@ -28,9 +28,9 @@ input[type=submit]:hover {
   }
 
 body {
-   font-family: open sans;
-   color: #54595F;
-   font-size: larger;
+   font-family:Open Sans;
+   color: #163948;
+   font-size: large;
 }
 
 .container {
@@ -39,6 +39,7 @@ body {
     border-style: solid;
     border-radius: 20px;
     border-width: 7px;
+   
   }
   
 #q1-r1 {
@@ -47,14 +48,14 @@ body {
   
 #q1-p1 {
     font-size: 30px;
-    font-family: montserrat;
+    font-family: Montserrat;
     color: #163948 ;
   }
 
 #q1-c1 {
     color: #54595F;
-    font-family: lora;
-    font-size: larger;
+    font-family: open sans;
+    font-size: large;
 }
 
 #name {
@@ -116,8 +117,8 @@ body {
 
 #q4-l1 {
     color: #54595F;
-    font-family: lora;
-    font-size: larger;
+    font-family: open sans;
+    font-size: large;
 }
 
 #purpose{
@@ -126,8 +127,8 @@ body {
 
 #q5-l1 {
     color: #54595F;
-    font-family: lora;
-    font-size: larger;
+    font-family: open sans;
+    font-size: large;
 }
 
 #ques6_1 {
@@ -136,8 +137,8 @@ body {
 
 #q6-p1 {
     color: #54595F;
-    font-family: lora;
-    font-size: larger;
+    font-family: open sans;
+    font-size: large;
 }
 
 #ques6_2 {
@@ -170,36 +171,6 @@ body {
     margin-left: 500px;
 }
 
-.fa {  
-    padding: 20px;
-    font-size: 70px;
-    width: 50px;
-    text-align: left;
-    text-decoration: none;
-    
-  }
-
-  .fa:hover {
-      opacity: 0.7;
-  }
-
-  .fa-facebook {
-    background:#163948;
-    color: white;
-   
-  }
-
-  .fa-instagram {
-    background: #163948;
-    color: white;
-   
-  }
-
-  .fa-linkedin {
-    background:#163948;
-    color: white;
-    
-  }
 
 @media only screen and (max-width: 500px) {
     .container {
@@ -229,8 +200,8 @@ body {
 
     #q1-c1 {
             color: #54595F;
-            font-family: lora;
-            font-size: larger;
+            font-family: open sans;
+            font-size: large;
         }
         
     #name {
@@ -292,8 +263,8 @@ body {
 
      #q4-l1 {
         color: #54595F;
-        font-family: lora;
-        font-size: larger;
+        font-family: open sans;
+        font-size: large;
     }
     
      #purpose{
@@ -302,8 +273,8 @@ body {
 
     #q5-l1 {
         color: #54595F;
-        font-family: lora;
-        font-size: larger;
+        font-family: open sans;
+        font-size: large;
     }
 
     #have_baby {
@@ -323,6 +294,7 @@ body {
         margin-left: 400px;
     }
 
+    
     
 
     

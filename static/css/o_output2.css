@@ -181,10 +181,7 @@ input[type=submit]:hover {
     clear: both;
   }
 
-#cont{
-    background-color:white;
-    color:black
-}
+
 
 h1{
   text-align: center;
@@ -215,8 +212,8 @@ h1{
     border: 1px solid black;
     border-collapse: collapse;
     padding-right: 50px;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
 }
 
 #t1-row2 {
@@ -225,6 +222,7 @@ h1{
 
 #t1-col2 {
     border: 1px solid black;
+    font-size: medium;
     
 }
 
@@ -244,13 +242,14 @@ h1{
     border: 1px solid black;
     padding-right: 50px;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
 }
 
 #t2-col2 {
     border: 1px solid black;
     text-align: center; 
+    font-size: medium;
 }
 
 #t2-p1 {
@@ -280,20 +279,21 @@ h1{
     border: 1px solid black;
     padding-right: 50px;
     color: white;
-    font-family: lora;
-    font-size: larger;"
+    font-family:open sans;
+    font-size: large;"
 }
 
 #t3-col2 {
     border: 1px solid black;
     padding-right: 50px;
     text-align: center;
+    font-size: medium;
 }
 
 #table4 {
    border: 1px solid black;
    width:373px;
-   height:250px;"
+   height:264.5px;"
 }
 
 #t4-row1 {
@@ -306,8 +306,8 @@ h1{
     border: 1px solid black;
     padding-right: 50px;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
 }
 
 #t4-row2 {
@@ -318,6 +318,7 @@ h1{
     border: 1px solid black;
     border-collapse: collapse;
     padding-right: 50px;
+    font-size: medium;
 }
 
 #t4-p1 {
@@ -340,8 +341,8 @@ h1{
    border: 1px solid black;
    padding-right: 50px;
    color: white;
-   font-family: lora;
-   font-size: larger;
+   font-family:open sans;
+   font-size: large;
 }
 
 #t5-row2 {
@@ -352,6 +353,7 @@ h1{
     border: 1px solid black;
     border-collapse: collapse;
     padding-right: 50px;
+    font-size: medium;
 }
 
 #t5-p1 {
@@ -360,7 +362,7 @@ h1{
 
 #table6 {
     border: 1px solid black;
-    width:346px;
+    width:340px;
     height:680px;
 }
 
@@ -373,8 +375,8 @@ h1{
     text-align:center;
     border: 1px solid black;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
 }
 
 #t6-row2 {
@@ -383,6 +385,7 @@ h1{
 
 #t6-col2 {
     border: 1px solid black;
+    font-size: medium;
 }
 
 #t6-p1 {
@@ -409,22 +412,23 @@ h1{
     padding-right: 120px;
     text-align:center;
     color:white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
 }
 
 #t7-p1 {
-    font-size: 22px; 
+    font-size: large; 
 }
 
 #t7-p2 {
-    font-size: 18px;
+    font-size: medium;
 }
 
 #t7-col2 {
     border: 1px solid black;
     padding-right: 120px;
     padding-left: 5px;
+    font-size: medium;
 }
 
 #t7-row2 {
@@ -436,28 +440,29 @@ h1{
     padding-right: 120px;
     text-align:center;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
 }
 
 #t7-p3 {
     
     text-align: center;
-    font-size: 22px;
+    font-size: large;
 }
 
 #t7-p4 {
     text-align: center;
-    font-size: 21px;
+    font-size: large;
 }
 
 #t7-p5 {
     text-align: center;
-    font-size: 18px;
+    font-size: medium;
 }
 
 #t7-col4 {
     padding-left: 5px;
+    font-size: medium;
 }
 
 #table8 {
@@ -472,8 +477,8 @@ h1{
     border: 1px solid black;
     padding-right: 50px;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
 }
 
 #t8-col2 {
@@ -481,6 +486,7 @@ h1{
     padding-right: 120px;
     text-align: left;
     margin-left: 5px;
+    font-size: medium;
 
 }
 
@@ -526,8 +532,8 @@ h1{
     border: 1px solid black;
     padding-right: 50px;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
     width: 545px;
 }
 
@@ -549,8 +555,8 @@ h1{
     border: 1px solid black;
     padding-right: 50px;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
     width: 545px;
 
 }
@@ -571,8 +577,8 @@ h1{
     border: 1px solid black;
     padding-right: 50px;
     color: white;
-    font-family: lora;
-    font-size: larger;
+    font-family:open sans;
+    font-size: large;
     width: 545px;
 }
 
@@ -589,8 +595,8 @@ h1{
 }
 
 #back {
-    font-size: larger;
-   margin-left: 450px;
+    font-size:small;
+   text-align:center;
 }
 
 #appoint {
@@ -627,6 +633,10 @@ h1{
     color: white;
     
   }
+
+li {
+    font-size: medium;
+}
 
 
 @media only screen and (max-width: 500px) {
@@ -676,7 +686,7 @@ h1{
 #t1-col1 {
     color:white;
     text-align:center;
-    font-family: lora;
+    font-family:open sans;
     font-size:small;
 }
 
@@ -704,7 +714,7 @@ h1{
     text-align:center;
     padding-right: 50px;
     color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size:medium;
 }
 
@@ -737,7 +747,7 @@ h1{
     text-align:center;
     padding-right: 50px;
     color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size: medium;"
 }
 
@@ -760,7 +770,7 @@ h1{
      text-align:center;
      padding-right: 50px;
      color: white;
-     font-family: lora;
+     font-family:open sans;
      font-size: medium;
  }
  
@@ -790,7 +800,7 @@ h1{
    text-align:center;
    padding-right: 50px;
    color: white;
-   font-family: lora;
+   font-family:open sans;
    font-size: medium;
 }
 
@@ -819,7 +829,7 @@ h1{
 #t6-col1 {
     text-align:center;
     color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size: medium;
 }
 
@@ -852,7 +862,7 @@ h1{
 #t7-col1 {
     text-align:center;
     color:white;
-    font-family: lora;
+    font-family:open sans;
     font-size: small;
 }
 
@@ -880,7 +890,7 @@ h1{
     padding-right: 120px;
     text-align:center;
     color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size: small;
 }
 
@@ -914,7 +924,7 @@ h1{
     text-align:center;
     padding-right: 50px;
     color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size: medium;
 }
 
@@ -961,7 +971,7 @@ h1{
     text-align:center;
     padding-right: 50px;
     color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size: medium;
     width: 545px;
 }
@@ -981,7 +991,7 @@ h1{
 
 #t11-col1 {
      color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size:medium;
 
 
@@ -1001,7 +1011,7 @@ h1{
     text-align:center;
     padding-right: 50px;
     color: white;
-    font-family: lora;
+    font-family:open sans;
     font-size: medium;
     width: 545px;
 }
@@ -1016,7 +1026,7 @@ h1{
 }
 
 #back {
-    font-size: medium;
+    font-size: small;
    margin-left: 0px;
 }
 

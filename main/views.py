@@ -67,9 +67,11 @@ def output(request):
 
 
 
-    if appoint.height_feet == None or appoint.height_inches == None:
+    if appoint.height_feet == None:
         height=0
     else:
+        if appoint.height_inches == None:
+            appoint.height_inches =0 
         height=(appoint.height_feet*30.48+appoint.height_inches*2.54)/100
 
     
