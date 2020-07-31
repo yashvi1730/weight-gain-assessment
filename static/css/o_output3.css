@@ -657,7 +657,7 @@ li {
     border-spacing: 10px;
    
     
-    width: 400px;
+    width: 700px;
    
   }
 
@@ -679,7 +679,7 @@ li {
 }
 
 #table1 {
-   width:363px;
+   width:660px;
 }
 
 #t1-row1 {
@@ -705,7 +705,7 @@ li {
 
 #table2 {
 
-    width:363px;
+    width:660px;
     height:680px;
 }
 
@@ -730,7 +730,7 @@ li {
     border: 5px;
     border-style: solid;
     width: 300px;
-    margin-left: 30px;
+    margin-left: 180px;
 }
 
 #t2-p2 {
@@ -738,7 +738,7 @@ li {
 }
 
 #table3 {
-    width:363px;
+    width:660px;
     height:110px; 
 }
 
@@ -761,7 +761,7 @@ li {
 }
 
 #table4 {
-    width:363px;
+    width:660px;
     height:250px;"
  }
  
@@ -791,7 +791,7 @@ li {
 }
 
 #table5 {
-    width:363px;
+    width:660px;
     height:100px;"
 }
 
@@ -821,7 +821,7 @@ li {
 }
 
 #table6 {
-    width:363px;
+    width:660px;
     height:680px;
 }
 
@@ -849,12 +849,12 @@ li {
     border: 5px;
     border-style: solid;
     width: 300px;
-    margin-left: 30px;
+    margin-left: 180px;
 }
 
 #table7 {
     
-    width:363px;
+    width:660px;
     height: 835px;
     
 }
@@ -919,7 +919,7 @@ li {
 }
 
 #table8 {
-    width:363px;
+    width:660px;
     height: 160px;
     margin-left: 15px;
 }
@@ -945,7 +945,7 @@ li {
 }
 
 #table9 {
-    width:363px;
+    width:660px;
     margin-left: 15px;
 }
 
@@ -967,7 +967,7 @@ li {
 }
 
 #table10 {
-    width: 363px;
+    width: 660px;
     margin-left: 15px;
 }
 
@@ -989,7 +989,7 @@ li {
 
 #table11 {
     
-    width: 363px;
+    width: 660px;
     
 }
 
@@ -1007,7 +1007,7 @@ li {
 }
 
 #table12 {
-     width: 364px;
+     width: 660px;
      margin-left: 15px;
 }
 
@@ -1026,7 +1026,7 @@ li {
 }
 
 #table13 {
-    width: 364px;
+    width: 660px;
 }
 
 #back {
@@ -1046,6 +1046,26 @@ li {
     text-decoration: none;
     
   }
+
+  .gauge {
+    width: 100%;
+    max-width: 250px;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #004033;
+    margin-left: 200px;
+  }
+
+  .gauge1 {
+    width: 100%;
+    max-width: 250px;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #004033;
+    margin-left: 200px;
+    margin-top: 45px;
+  }
+  
 
   
 }
