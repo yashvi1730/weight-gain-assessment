@@ -1,0 +1,38 @@
+#submit {
+   
+    background-color:#163948;
+    color: white;
+    padding: 5px 2px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left:120px;
+    
+    width:50%;
+   
+}
+
+#doctor-icon {
+   margin-top: -50px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #submit {
+   
+        background-color:#163948;
+        color: white;
+        padding: 5px 2px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left:50px;
+        
+        width:70%;
+       
+    }
+
+    #doctor-icon {
+        margin-top: 0px;
+     }
+}
