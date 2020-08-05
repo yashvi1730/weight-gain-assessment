@@ -18,7 +18,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  
     <link rel="stylesheet" href="{% static 'css/homes3.css'%}">
-    <link rel="stylesheet" href="{% static 'css/pop_up2.css'%}">
+    <link rel="stylesheet" href="{% static 'css/pop_up3.css'%}">
     <link rel="stylesheet" href="{% static 'css/header4.css'%}"/>
     <link rel="stylesheet" href="{% static 'css/footer8.css'%}"/>
     <link rel="stylesheet" href="{% static 'css/share2.css'%}"/>
@@ -30,8 +30,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Abril+Fatface" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-
-
+    
     <script >
 
 
@@ -180,6 +179,25 @@
     
 </head>
 <body >
+    <div id="myModal" class="modal fade" >
+        <div class="modal-dialog  modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" >Medical Disclaimer</h3>        
+                </div>
+                <div class="modal-body"  >
+                    <p id="text" >The information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this web site is for general information purposes only. You are encouraged to confirm any information obtained from or through this web site with a physician. Never disregard professional medical advice or delay seeking medical treatment because of something you have read on or accessed through this web site.</p>
+                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal" id="modal-button" >I Understand</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=421275845044457&autoLogAppEvents=1" nonce="RC3YhEcm"></script>
 <div id="fb-root"></div>
@@ -217,21 +235,10 @@ fjs.parentNode.insertBefore(js, fjs);
 
       
 
+      
     
   
-      <div id="myModal" class="modal fade" >
-        <div class="modal-dialog  modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title" >Medical Disclaimer</h3>        
-                </div>
-                <div class="modal-body"  >
-                    <p id="text" >The information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this web site is for general information purposes only. You are encouraged to confirm any information obtained from or through this web site with a physician. Never disregard professional medical advice or delay seeking medical treatment because of something you have read on or accessed through this web site.</p>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="modal-button" >I Understand</button>
-                </div>
-            </div>
-        </div>
-    </div>
+      
 
       
     <div class="container" id ="cont" style="border-color: #163948 ;border-style: solid;border-radius: 20px;border-width: 7px;">
@@ -1214,6 +1221,8 @@ fjs.parentNode.insertBefore(js, fjs);
         </div>
         
     </footer>
+
+    
 
     
 
